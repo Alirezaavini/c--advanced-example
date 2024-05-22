@@ -1,24 +1,22 @@
-﻿using DotNet8.Inheritance;
+﻿using DotNet8.Delegates;
+using DotNet8.Inheritance;
 using DotNet8.Samples;
 using DotNet8.Virtual;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-
-////TestParameter.Run();
-
-Console.WriteLine("");
+var title = "This is my title";
 
 
+//GenericDelegate<string> method = ConvertToUpper;
+//method += ConvertToLower; //multi cast delegates
+//method(title);
+
+//Func<string , string> methods = ConvertToLower;
 
 
-void MyFunction(int a)
-{
-    Console.WriteLine(a);
-}
+//TestMethodWithGettingDelegate(s => s = "asdfsadfasf");
 
+DelegateClass.RunStart t = () => Console.Write("test tun delegate from out side of this class");
 
-TestDelegate t = MyFunction;
-t.Invoke(2);
-
-public delegate void TestDelegate(int a);
+SubscriberClass subscriber = new SubscriberClass();

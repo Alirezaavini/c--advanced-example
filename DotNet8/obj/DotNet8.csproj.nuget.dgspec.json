@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\projects\\C#\\Project\\DOTNET8\\DotNet8\\DotNet8.csproj": {}
+    "F:\\projects\\C#\\advanced-example\\DotNet8\\DotNet8.csproj": {}
   },
   "projects": {
-    "F:\\projects\\C#\\Project\\DOTNET8\\DotNet8\\DotNet8.csproj": {
+    "F:\\projects\\C#\\advanced-example\\DotNet8\\DotNet8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\projects\\C#\\Project\\DOTNET8\\DotNet8\\DotNet8.csproj",
+        "projectUniqueName": "F:\\projects\\C#\\advanced-example\\DotNet8\\DotNet8.csproj",
         "projectName": "DotNet8",
-        "projectPath": "F:\\projects\\C#\\Project\\DOTNET8\\DotNet8\\DotNet8.csproj",
+        "projectPath": "F:\\projects\\C#\\advanced-example\\DotNet8\\DotNet8.csproj",
         "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
-        "outputPath": "F:\\projects\\C#\\Project\\DOTNET8\\DotNet8\\obj\\",
+        "outputPath": "F:\\projects\\C#\\advanced-example\\DotNet8\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config",
