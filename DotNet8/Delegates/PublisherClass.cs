@@ -6,20 +6,17 @@ using System.Threading.Tasks;
 
 namespace DotNet8.Delegates
 {
-    public delegate void Notify(string msg); //1 define delegate
     public class PublisherClass
     {
-        public event Notify Notife;  //2 use delegate to define an event
+        public static event NotifDelegate Notif;
 
-        public void StartNotify()
-        {
-            NotifyHandler("msg from publisher");
-        }
 
-        public virtual void NotifyHandler(string msg)
+
+        public static void NotifyHandler(string msg)
         {
-            Console.WriteLine("do in publisher first", msg);
-            Notife?.Invoke(msg);
+            Console.WriteLine("called notify handler in publisher class");
+            Notif.Invoke(msg);
+            Console.WriteLine("after invoking");
         }
 
     }

@@ -8,18 +8,18 @@ namespace DotNet8.Delegates
 {
     public class SubscriberClass
     {
+
         public SubscriberClass()
         {
-            PublisherClass publisherClass = new PublisherClass();
-            publisherClass.Notife += GetNotif;
-            publisherClass.StartNotify();
+            PublisherClass.Notif += GetNotif; //add get notif to Notif event
         }
 
 
         public void GetNotif(string msg)
         {
-            Console.WriteLine("doing from subscriber");
+            Console.WriteLine("called get Notif in subscriber class");
             Console.WriteLine(msg);
         }
+
     }
 }

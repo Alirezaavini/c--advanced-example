@@ -14,9 +14,14 @@ var title = "This is my title";
 
 //Func<string , string> methods = ConvertToLower;
 
-
 //TestMethodWithGettingDelegate(s => s = "asdfsadfasf");
 
-DelegateClass.RunStart t = () => Console.Write("test tun delegate from out side of this class");
 
-SubscriberClass subscriber = new SubscriberClass();
+//DelegateClass.RunStart t = (string t) => Console.Write("t {0}", t);
+
+//SubscriberClass subscriber = new SubscriberClass();
+//SbcriberClass2 subscriber2 = new SbcriberClass2();
+AdvancedSubscriberClass subscriber2 = new AdvancedSubscriberClass();
+
+AdvancedPublisherClass advancedPublisherClass = new AdvancedPublisherClass();
+advancedPublisherClass.SendNotifyToSubscribers(EventArgs.Empty);

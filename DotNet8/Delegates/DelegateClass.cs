@@ -9,7 +9,7 @@ namespace DotNet8.Delegates
     public delegate void PriceChangedHandler(decimal oldPrice, decimal newPrice);
     public interface DelegateClass
     {
-        public delegate void RunStart();
+        public delegate void RunStart(string t);
 
         public RunStart RunStartFunc { get; set; }
 
