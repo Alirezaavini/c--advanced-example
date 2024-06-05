@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DotNet8.Delegates
+﻿namespace DotNet8.Delegates
 {
     public class PublisherClass
     {
@@ -20,4 +14,18 @@ namespace DotNet8.Delegates
         }
 
     }
+
+
+    public class Test<T, T2> where T : class where T2 : class
+    {
+        public delegate T2 TestDelegate(T param);
+
+
+
+
+
+        
+        
+    }
+
 }

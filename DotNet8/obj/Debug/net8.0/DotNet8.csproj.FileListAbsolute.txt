@@ -27,3 +27,18 @@ F:\projects\C#\advanced-example\DotNet8\obj\Debug\net8.0\refint\DotNet8.dll
 F:\projects\C#\advanced-example\DotNet8\obj\Debug\net8.0\DotNet8.pdb
 F:\projects\C#\advanced-example\DotNet8\obj\Debug\net8.0\DotNet8.genruntimeconfig.cache
 F:\projects\C#\advanced-example\DotNet8\obj\Debug\net8.0\ref\DotNet8.dll
+E:\projects\Personal\.net core\c--advanced-example\DotNet8\bin\Debug\net8.0\DotNet8.exe
+E:\projects\Personal\.net core\c--advanced-example\DotNet8\bin\Debug\net8.0\DotNet8.deps.json
+E:\projects\Personal\.net core\c--advanced-example\DotNet8\bin\Debug\net8.0\DotNet8.runtimeconfig.json
+E:\projects\Personal\.net core\c--advanced-example\DotNet8\bin\Debug\net8.0\DotNet8.dll
+E:\projects\Personal\.net core\c--advanced-example\DotNet8\bin\Debug\net8.0\DotNet8.pdb
+E:\projects\Personal\.net core\c--advanced-example\DotNet8\obj\Debug\net8.0\DotNet8.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\Personal\.net core\c--advanced-example\DotNet8\obj\Debug\net8.0\DotNet8.AssemblyInfoInputs.cache
+E:\projects\Personal\.net core\c--advanced-example\DotNet8\obj\Debug\net8.0\DotNet8.AssemblyInfo.cs
+E:\projects\Personal\.net core\c--advanced-example\DotNet8\obj\Debug\net8.0\DotNet8.csproj.CoreCompileInputs.cache
+E:\projects\Personal\.net core\c--advanced-example\DotNet8\obj\Debug\net8.0\DotNet8.sourcelink.json
+E:\projects\Personal\.net core\c--advanced-example\DotNet8\obj\Debug\net8.0\DotNet8.dll
+E:\projects\Personal\.net core\c--advanced-example\DotNet8\obj\Debug\net8.0\refint\DotNet8.dll
+E:\projects\Personal\.net core\c--advanced-example\DotNet8\obj\Debug\net8.0\DotNet8.pdb
+E:\projects\Personal\.net core\c--advanced-example\DotNet8\obj\Debug\net8.0\DotNet8.genruntimeconfig.cache
+E:\projects\Personal\.net core\c--advanced-example\DotNet8\obj\Debug\net8.0\ref\DotNet8.dll
