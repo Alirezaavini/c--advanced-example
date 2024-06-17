@@ -36,10 +36,14 @@ obj/
 Obj/
 /Obj
 **/Obj
-
+/DotNet8/obj/
+**/DotNet8/obj/
 
 # Visual Studio 2015 cache/options directory
 /.vs
+/DotNet8/.vs/DotNet8
+/DotNet8/.vs
+**/DotNet8/.vs/DotNet8
 **/.vs
 .vs/
 /wwwroot/dist/
